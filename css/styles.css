@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+html,
+body {
+  height: 100%;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  background-attachment: fixed;
+  background-image: url(../imgs/hgaines-paint-splash.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Lato", sans-serif;
+  font-size: 1.2em;
+  overflow: hidden;
+}
+
+main {
+  background: #030d17;
+  background: linear-gradient(211deg, #030d17 26%, rgba(24, 95, 149, 0.137693) 100%);
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 7px 35px 3px rgba(0, 0, 0, 0.9);
+          box-shadow: 0px 7px 35px 3px rgba(0, 0, 0, 0.9);
+  max-height: 600px;
+  left: 50%;
+  max-width: 400px;
+  padding: 24px;
+  overflow-y: auto;
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.main-heading {
+  color: #fff;
+  font-weight: 400;
+  margin: 0;
+  text-align: center;
+}
+
+.link-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.link-list__item {
+  margin: 0;
+}
+
+.link-list__link {
+  background: #fff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #000;
+  display: block;
+  font-weight: 700;
+  margin-bottom: 8px;
+  padding: 24px;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  -webkit-transition: background 0.12s ease-in-out;
+  transition: background 0.12s ease-in-out;
+}
+
+.link-list__link:hover, .link-list__link:focus {
+  background: #030d17;
+  background: linear-gradient(211deg, #030d17 26%, rgba(24, 95, 149, 0.137693) 100%);
+  border: 1px solid #316b8f;
+  color: #fff;
+  -webkit-transition: background 0.12s ease-in-out;
+  transition: background 0.12s ease-in-out;
+}
+
+footer {
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+}
+/*# sourceMappingURL=styles.css.map */
