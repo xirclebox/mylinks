@@ -17,7 +17,12 @@ html {
 }
 
 body {
-  background: rgb(3, 13, 23);
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    164deg,
+    rgba(0, 0, 0, 1) 27%,
+    rgba(151, 21, 5, 1) 100%
+  );
   background-attachment: fixed;
   background-image: url(../imgs/hgaines-paint-splash.jpg);
   background-position: top;
