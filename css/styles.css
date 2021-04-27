@@ -17,6 +17,7 @@ html {
 }
 
 body {
+  background: #030d17;
   background-attachment: fixed;
   background-image: url(../imgs/hgaines-paint-splash.jpg);
   background-position: top;
