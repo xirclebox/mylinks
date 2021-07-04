@@ -74,8 +74,8 @@ main {
   text-align: center;
   text-decoration: none;
   width: 100%;
-  -webkit-transition: background 0.12s ease-in-out;
-  transition: background 0.12s ease-in-out;
+  -webkit-transition: background 0.15s ease-in-out;
+  transition: background 0.15s ease-in-out;
 }
 
 .link-list__link:hover, .link-list__link:focus {
@@ -83,8 +83,8 @@ main {
   background: linear-gradient(211deg, #030d17 26%, rgba(24, 95, 149, 0.137693) 100%);
   border: 1px solid #316b8f;
   color: #fff;
-  -webkit-transition: background 0.12s ease-in-out;
-  transition: background 0.12s ease-in-out;
+  -webkit-transition: background 0.15s ease-in-out;
+  transition: background 0.15s ease-in-out;
 }
 
 footer {
